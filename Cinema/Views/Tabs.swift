@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct MyTabView: View {
+struct Tabs: View {
+    @State var tickets: [Film] = []
     @State var selection: Int = 0
     
     var body: some View {
         TabView(selection: $selection) {
-            WhatsOnView()
+            WhatsOn(tickets: $tickets)
                 .tabItem {
                     VStack {
                         if selection == 0 {
@@ -22,9 +23,10 @@ struct MyTabView: View {
                         }
                         Text("What's On?")
                     }
-                }.tag(0)
+                }
+                .tag(0)
             
-            MyTicketsView()
+            MyTickets(tickets: $tickets)
                 .tabItem {
                     VStack {
                         if selection == 1 {
@@ -34,7 +36,8 @@ struct MyTabView: View {
                         }
                         Text("My Tickets")
                     }
-                }.tag(1)
+                }
+                .tag(1)
         }
     }
 }

@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		F4A87BEF2605E4CF008963DF /* CinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87BEE2605E4CF008963DF /* CinemaApp.swift */; };
 		F4A87BF32605E4DA008963DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A87BF22605E4DA008963DF /* Assets.xcassets */; };
-		F4A87C032605E9FD008963DF /* WhatsOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C022605E9FD008963DF /* WhatsOnView.swift */; };
-		F4A87C062605EA21008963DF /* MyTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C052605EA21008963DF /* MyTicketsView.swift */; };
-		F4A87C092605EA77008963DF /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C082605EA77008963DF /* MyTabView.swift */; };
+		F4A87C032605E9FD008963DF /* WhatsOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C022605E9FD008963DF /* WhatsOn.swift */; };
+		F4A87C062605EA21008963DF /* MyTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C052605EA21008963DF /* MyTickets.swift */; };
+		F4A87C092605EA77008963DF /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C082605EA77008963DF /* Tabs.swift */; };
 		F4A87C1326065E28008963DF /* filmData.json in Resources */ = {isa = PBXBuildFile; fileRef = F4A87C1226065E28008963DF /* filmData.json */; };
 		F4A87C16260665B0008963DF /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C15260665B0008963DF /* Film.swift */; };
 		F4A87C1A26066766008963DF /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C1926066766008963DF /* Coordinates.swift */; };
-		F4A87C1D260667CE008963DF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C1C260667CE008963DF /* ModelData.swift */; };
+		F4A87C1D260667CE008963DF /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C1C260667CE008963DF /* Films.swift */; };
 		F4A87C21260668DC008963DF /* FilmDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C20260668DC008963DF /* FilmDetail.swift */; };
+		F4A87C2826067D8D008963DF /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C2726067D8D008963DF /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,14 +25,15 @@
 		F4A87BEE2605E4CF008963DF /* CinemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaApp.swift; sourceTree = "<group>"; };
 		F4A87BF22605E4DA008963DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A87BF72605E4DA008963DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4A87C022605E9FD008963DF /* WhatsOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsOnView.swift; sourceTree = "<group>"; };
-		F4A87C052605EA21008963DF /* MyTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsView.swift; sourceTree = "<group>"; };
-		F4A87C082605EA77008963DF /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		F4A87C022605E9FD008963DF /* WhatsOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsOn.swift; sourceTree = "<group>"; };
+		F4A87C052605EA21008963DF /* MyTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTickets.swift; sourceTree = "<group>"; };
+		F4A87C082605EA77008963DF /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		F4A87C1226065E28008963DF /* filmData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filmData.json; sourceTree = "<group>"; };
 		F4A87C15260665B0008963DF /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		F4A87C1926066766008963DF /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
-		F4A87C1C260667CE008963DF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F4A87C1C260667CE008963DF /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
 		F4A87C20260668DC008963DF /* FilmDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetail.swift; sourceTree = "<group>"; };
+		F4A87C2726067D8D008963DF /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +80,11 @@
 		F4A87C0F26065DA0008963DF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F4A87C082605EA77008963DF /* MyTabView.swift */,
-				F4A87C022605E9FD008963DF /* WhatsOnView.swift */,
+				F4A87C082605EA77008963DF /* Tabs.swift */,
+				F4A87C022605E9FD008963DF /* WhatsOn.swift */,
 				F4A87C20260668DC008963DF /* FilmDetail.swift */,
-				F4A87C052605EA21008963DF /* MyTicketsView.swift */,
+				F4A87C052605EA21008963DF /* MyTickets.swift */,
+				F4A87C2726067D8D008963DF /* SearchBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -89,7 +92,7 @@
 		F4A87C1026065DAE008963DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F4A87C1C260667CE008963DF /* ModelData.swift */,
+				F4A87C1C260667CE008963DF /* Films.swift */,
 				F4A87C15260665B0008963DF /* Film.swift */,
 				F4A87C1926066766008963DF /* Coordinates.swift */,
 			);
@@ -181,13 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A87C16260665B0008963DF /* Film.swift in Sources */,
-				F4A87C032605E9FD008963DF /* WhatsOnView.swift in Sources */,
-				F4A87C062605EA21008963DF /* MyTicketsView.swift in Sources */,
+				F4A87C2826067D8D008963DF /* SearchBar.swift in Sources */,
+				F4A87C032605E9FD008963DF /* WhatsOn.swift in Sources */,
+				F4A87C062605EA21008963DF /* MyTickets.swift in Sources */,
 				F4A87C1A26066766008963DF /* Coordinates.swift in Sources */,
 				F4A87BEF2605E4CF008963DF /* CinemaApp.swift in Sources */,
-				F4A87C1D260667CE008963DF /* ModelData.swift in Sources */,
+				F4A87C1D260667CE008963DF /* Films.swift in Sources */,
 				F4A87C21260668DC008963DF /* FilmDetail.swift in Sources */,
-				F4A87C092605EA77008963DF /* MyTabView.swift in Sources */,
+				F4A87C092605EA77008963DF /* Tabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

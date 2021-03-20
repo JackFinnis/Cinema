@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FilmDetail: View {
+    @Binding var tickets: [Film]
+    
     var film: Film
     
     var body: some View {
