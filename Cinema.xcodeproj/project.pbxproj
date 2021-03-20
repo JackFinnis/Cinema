@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F4A87BEF2605E4CF008963DF /* CinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87BEE2605E4CF008963DF /* CinemaApp.swift */; };
-		F4A87BF12605E4CF008963DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87BF02605E4CF008963DF /* ContentView.swift */; };
 		F4A87BF32605E4DA008963DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A87BF22605E4DA008963DF /* Assets.xcassets */; };
 		F4A87BF62605E4DA008963DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A87BF52605E4DA008963DF /* Preview Assets.xcassets */; };
+		F4A87C032605E9FD008963DF /* WhatsOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C022605E9FD008963DF /* WhatsOnView.swift */; };
+		F4A87C062605EA21008963DF /* MyTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C052605EA21008963DF /* MyTicketsView.swift */; };
+		F4A87C092605EA77008963DF /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C082605EA77008963DF /* MyTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4A87BEB2605E4CF008963DF /* Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A87BEE2605E4CF008963DF /* CinemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaApp.swift; sourceTree = "<group>"; };
-		F4A87BF02605E4CF008963DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4A87BF22605E4DA008963DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A87BF52605E4DA008963DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4A87BF72605E4DA008963DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A87C022605E9FD008963DF /* WhatsOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsOnView.swift; sourceTree = "<group>"; };
+		F4A87C052605EA21008963DF /* MyTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketsView.swift; sourceTree = "<group>"; };
+		F4A87C082605EA77008963DF /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				F4A87BEE2605E4CF008963DF /* CinemaApp.swift */,
-				F4A87BF02605E4CF008963DF /* ContentView.swift */,
+				F4A87C082605EA77008963DF /* MyTabView.swift */,
+				F4A87C022605E9FD008963DF /* WhatsOnView.swift */,
+				F4A87C052605EA21008963DF /* MyTicketsView.swift */,
 				F4A87BF22605E4DA008963DF /* Assets.xcassets */,
 				F4A87BF72605E4DA008963DF /* Info.plist */,
 				F4A87BF42605E4DA008963DF /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A87BF12605E4CF008963DF /* ContentView.swift in Sources */,
+				F4A87C032605E9FD008963DF /* WhatsOnView.swift in Sources */,
+				F4A87C062605EA21008963DF /* MyTicketsView.swift in Sources */,
 				F4A87BEF2605E4CF008963DF /* CinemaApp.swift in Sources */,
+				F4A87C092605EA77008963DF /* MyTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
