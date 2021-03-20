@@ -20,7 +20,7 @@ struct MyTabView: View {
                         } else {
                             Image(systemName: "film")
                         }
-                        Text("What's On")
+                        Text("What's On?")
                     }
                 }.tag(0)
             

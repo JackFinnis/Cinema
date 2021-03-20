@@ -1,0 +1,98 @@
+[
+    {
+        "name": "No Time To Die",
+        "category": "Action",
+        "id": 1,
+        "time": "19:50",
+        "date": "Monday 29th March",
+        "length": "2h 43m",
+        "rating": "PG-13",
+        "imageName": "jamesbond",
+        "cinema": "The Screen Cinema",
+        "coordinates": {
+            "longitude": 51.47985946913658,
+            "latitude": -0.6071019193659665
+        },
+        "description": "Recruited to rescue a kidnapped scientist, globe-trotting spy James Bond finds himself hot on the trail of a mysterious villain who's armed with a dangerous new technology."
+    },
+    {
+        "name": "Avatar",
+        "category": "Science Fiction",
+        "id": 2,
+        "time": "20:05",
+        "date": "Saturday 3rd April",
+        "length": "2h 35m",
+        "rating": "PG-13",
+        "imageName": "avatar",
+        "cinema": "Datchet Village Hall",
+        "coordinates": {
+            "longitude": 51.48878549175463,
+            "latitude": -0.5655598655660463
+        },
+        "description": "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully (Sam Worthington), a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman (Zoe Saldana). As a bond with her grows, he is drawn into a battle for the survival of her world."
+    },
+    {
+        "name": "Minions",
+        "category": "Family",
+        "id": 3,
+        "time": "18:40",
+        "date": "Wednesday 31st March",
+        "length": "1h 31m",
+        "rating": "PG",
+        "imageName": "minions",
+        "cinema": "Empire Cinemas",
+        "coordinates": {
+            "longitude": 51.51379045015805,
+            "latitude": -0.5765461530657578
+        },
+        "description": "Evolving from single-celled yellow organisms at the dawn of time, Minions live to serve, but find themselves working for a continual series of unsuccessful masters, from T. Rex to Napoleon. Without a master to grovel for, the Minions fall into a deep depression. But one minion, Kevin, has a plan; accompanied by his pals Stuart and Bob, Kevin sets forth to find a new evil boss for his brethren to follow. Their search leads them to Scarlet Overkill, the world's first-ever super-villainess."
+    },
+    {
+        "name": "Doctor Strange",
+        "category": "Science Fiction",
+        "id": 4,
+        "time": "21:25",
+        "date": "Thursday 1st April",
+        "length": "1h 55m",
+        "rating": "PG-13",
+        "imageName": "doctorstrange",
+        "cinema": "Ambassador Cinema",
+        "coordinates": {
+            "longitude": 51.53408351052461,
+            "latitude": -0.6033253276255478
+        },
+        "description": "Dr. Stephen Strange's (Benedict Cumberbatch) life changes after a car accident robs him of the use of his hands. When traditional medicine fails him, he looks for healing, and hope, in a mysterious enclave. He quickly learns that the enclave is at the front line of a battle against unseen dark forces bent on destroying reality. Before long, Strange is forced to choose between his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence."
+    },
+    {
+        "name": "Toy Story 4",
+        "category": "Family",
+        "id": 5,
+        "time": "15:55",
+        "date": "Saturday 3rd April",
+        "length": "1h 40m",
+        "rating": "G",
+        "imageName": "toystory",
+        "cinema": "ODEON Luxe Maidenhead",
+        "coordinates": {
+            "longitude": 51.523190465809684,
+            "latitude": -0.7073521205022943
+        },
+        "description": "Woody, Buzz Lightyear and the rest of the gang embark on a road trip with Bonnie and a new toy named Forky. The adventurous journey turns into an unexpected reunion as Woody's slight detour leads him to his long-lost friend Bo Peep. As Woody and Bo discuss the old days, they soon start to realize that they're worlds apart when it comes to what they want from life as a toy."
+    },
+    {
+        "name": "Fast & Furious 6",
+        "category": "Action",
+        "id": 6,
+        "time": "21:05",
+        "date": "Tuesday 30th March",
+        "length": "2h 10m",
+        "rating": "PG-13",
+        "imageName": "fastfurious",
+        "cinema": "Pinewood Cinema",
+        "coordinates": {
+            "longitude": 51.55308670037528,
+            "latitude": -0.5243610941746332
+        },
+        "description": "Since Dom (Vin Diesel) and Brian's (Paul Walker) heist in Rio left them and their crew very rich people, they've scattered across the globe; however, they must still live as fugitives, unable to return home to their families. Meanwhile, Agent Hobbs (Dwayne Johnson) has been tracking a gang of lethally skilled mercenary drivers whose second-in-command is someone Dom knows. Unable to take them down himself, Hobbs asks Dom and his crew for help in exchange for full pardons for everyone."
+    }
+]
