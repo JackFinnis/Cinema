@@ -10,7 +10,11 @@ import SwiftUI
 struct WhatsOnView: View {
     var body: some View {
         NavigationView {
-            Text("Avengers: Age of Ultron")
+            List(films) { film in
+                NavigationLink(destination: FilmDetail(film: film)) {
+                    Text(film.name)
+                }
+            }
                 .navigationTitle("What's On?")
                 .toolbar {
                     Button(action: {
