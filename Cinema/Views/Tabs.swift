@@ -28,7 +28,7 @@ struct Tabs: View {
                 }
                 .tag(0)
             
-            MyTickets(tickets: $tickets)
+            MyTickets(tickets: $tickets, tabSelection: $tabSelection)
                 .tabItem {
                     VStack {
                         if tabSelection == 1 {

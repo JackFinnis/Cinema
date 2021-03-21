@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42C44AC2607A1C100C80575 /* TicketDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C44AB2607A1C100C80575 /* TicketDetail.swift */; };
 		F4A87BEF2605E4CF008963DF /* CinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87BEE2605E4CF008963DF /* CinemaApp.swift */; };
 		F4A87BF32605E4DA008963DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A87BF22605E4DA008963DF /* Assets.xcassets */; };
 		F4A87C032605E9FD008963DF /* WhatsOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C022605E9FD008963DF /* WhatsOn.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42C44AB2607A1C100C80575 /* TicketDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetail.swift; sourceTree = "<group>"; };
 		F4A87BEB2605E4CF008963DF /* Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A87BEE2605E4CF008963DF /* CinemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaApp.swift; sourceTree = "<group>"; };
 		F4A87BF22605E4DA008963DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				F4A87C20260668DC008963DF /* FilmDetail.swift */,
 				F4A87C3D26077E49008963DF /* CinemaMap.swift */,
 				F4A87C052605EA21008963DF /* MyTickets.swift */,
+				F42C44AB2607A1C100C80575 /* TicketDetail.swift */,
 				F4A87C2726067D8D008963DF /* SearchBar.swift */,
 			);
 			path = Views;
@@ -201,6 +204,7 @@
 				F4A87C032605E9FD008963DF /* WhatsOn.swift in Sources */,
 				F4A87C35260738D5008963DF /* Genre.swift in Sources */,
 				F4A87C322607362F008963DF /* GenreRow.swift in Sources */,
+				F42C44AC2607A1C100C80575 /* TicketDetail.swift in Sources */,
 				F4A87C062605EA21008963DF /* MyTickets.swift in Sources */,
 				F4A87C1A26066766008963DF /* Coordinates.swift in Sources */,
 				F4A87BEF2605E4CF008963DF /* CinemaApp.swift in Sources */,

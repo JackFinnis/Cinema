@@ -11,6 +11,7 @@ struct MyTickets: View {
     @EnvironmentObject var modelData: ModelData
     
     @Binding var tickets: [Film]
+    @Binding var tabSelection: Int
     
     @State var searchText: String = ""
     
@@ -20,7 +21,27 @@ struct MyTickets: View {
                 SearchBar(searchText: $searchText)
                 
                 List(tickets.filter({ searchText.isEmpty ? true : $0.name.contains(searchText) })) { ticket in
-                    Text(ticket.name)
+                    NavigationLink(destination: TicketDetail(tabSelection: $tabSelection, film: ticket), label: {
+                        VStack(alignment: .leading) {
+                            HStack {
+                                Image(ticket.imageName)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                Image("qrcode")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                            }
+                            .cornerRadius(11)
+                            
+                            Text(ticket.name)
+                                .padding(.leading, 10)
+                            Text(ticket.time + ", " + ticket.date)
+                                .foregroundColor(.secondary)
+                                .padding(.leading, 10)
+                        }
+                        .padding(10)
+                    })
+                    .listRowInsets(EdgeInsets())
                 }
             }
             .navigationTitle("My Tickets")
