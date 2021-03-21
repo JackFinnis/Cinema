@@ -21,6 +21,7 @@
 		F4A87C2F2607353C008963DF /* GenreFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C2E2607353C008963DF /* GenreFilm.swift */; };
 		F4A87C322607362F008963DF /* GenreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C312607362F008963DF /* GenreRow.swift */; };
 		F4A87C35260738D5008963DF /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C34260738D5008963DF /* Genre.swift */; };
+		F4A87C3E26077E49008963DF /* CinemaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A87C3D26077E49008963DF /* CinemaMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F4A87C2E2607353C008963DF /* GenreFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreFilm.swift; sourceTree = "<group>"; };
 		F4A87C312607362F008963DF /* GenreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreRow.swift; sourceTree = "<group>"; };
 		F4A87C34260738D5008963DF /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		F4A87C3D26077E49008963DF /* CinemaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				F4A87C312607362F008963DF /* GenreRow.swift */,
 				F4A87C2E2607353C008963DF /* GenreFilm.swift */,
 				F4A87C20260668DC008963DF /* FilmDetail.swift */,
+				F4A87C3D26077E49008963DF /* CinemaMap.swift */,
 				F4A87C052605EA21008963DF /* MyTickets.swift */,
 				F4A87C2726067D8D008963DF /* SearchBar.swift */,
 			);
@@ -194,6 +197,7 @@
 			files = (
 				F4A87C16260665B0008963DF /* Film.swift in Sources */,
 				F4A87C2826067D8D008963DF /* SearchBar.swift in Sources */,
+				F4A87C3E26077E49008963DF /* CinemaMap.swift in Sources */,
 				F4A87C032605E9FD008963DF /* WhatsOn.swift in Sources */,
 				F4A87C35260738D5008963DF /* Genre.swift in Sources */,
 				F4A87C322607362F008963DF /* GenreRow.swift in Sources */,

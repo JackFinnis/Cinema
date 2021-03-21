@@ -8,19 +8,25 @@
 import SwiftUI
 
 struct GenreRow: View {
+    @Binding var tickets: [Film]
+    @Binding var tabSelection: Int
+    
     var genre: String
     var genreFilms: [Film]
     
     var body: some View {
-        VStack(alignment: .leading) {
-            Text(genre)
-                .font(.headline)
-                .padding()
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .top, spacing: 0) {
-                    ForEach(genreFilms) { film in
-                        GenreFilm(film: film)
+        Section(header: Text(genre)
+                            .textCase(nil)
+                            .font(.headline)
+                            .padding(.horizontal)) {
+            VStack(alignment: .leading) {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top, spacing: 0) {
+                        ForEach(genreFilms) { film in
+                            NavigationLink(destination: FilmDetail(tickets: $tickets, tabSelection: $tabSelection, film: film)) {
+                                GenreFilm(film: film)
+                            }
+                        }
                     }
                 }
             }

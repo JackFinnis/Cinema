@@ -15,10 +15,12 @@ struct GenreFilm: View {
             Image(film.imageName)
                 .resizable()
                 .frame(width: 200, height: 200)
-                .cornerRadius(10)
+                .cornerRadius(11)
             Text(film.name)
+                .padding(.leading, 10)
                 .font(.caption)
+                .foregroundColor(.white)
         }
-        .padding(.horizontal, 10)
+        .padding(10)
     }
 }

@@ -11,15 +11,14 @@ struct Tabs: View {
     @EnvironmentObject var modelData: ModelData
     
     @State var tickets: [Film] = []
-    @State var selection: Int = 0
+    @State var tabSelection: Int = 0
     
     var body: some View {
-        TabView(selection: $selection) {
-            WhatsOn(tickets: $tickets)
-                .environmentObject(modelData)
+        TabView(selection: $tabSelection) {
+            WhatsOn(tabSelection: $tabSelection, tickets: $tickets)
                 .tabItem {
                     VStack {
-                        if selection == 0 {
+                        if tabSelection == 0 {
                             Image(systemName: "film.fill")
                         } else {
                             Image(systemName: "film")
@@ -30,10 +29,9 @@ struct Tabs: View {
                 .tag(0)
             
             MyTickets(tickets: $tickets)
-                .environmentObject(modelData)
                 .tabItem {
                     VStack {
-                        if selection == 1 {
+                        if tabSelection == 1 {
                             Image(systemName: "ticket.fill")
                         } else {
                             Image(systemName: "ticket")

@@ -38,6 +38,7 @@ struct SearchBar: View {
                     }
                 )
                 .padding(.horizontal, 10)
+                .padding(.bottom, 5)
                 .transition(.move(edge: .trailing))
                 .animation(.default, value: isEditing)
                 .onTapGesture {

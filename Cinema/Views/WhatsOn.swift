@@ -10,6 +10,7 @@ import SwiftUI
 struct WhatsOn: View {
     @EnvironmentObject var modelData: ModelData
     
+    @Binding var tabSelection: Int
     @Binding var tickets: [Film]
     
     @State var searchText: String = ""
@@ -19,9 +20,9 @@ struct WhatsOn: View {
             VStack {
                 SearchBar(searchText: $searchText)
                 
-                ScrollView(.vertical, showsIndicators: false) {
+                List {
                     ForEach(modelData.genres.keys.sorted(), id: \.self) { key in
-                        GenreRow(genre: key, genreFilms: modelData.genres[key]!.filter({ searchText.isEmpty ? true : $0.name.contains(searchText)}))
+                        GenreRow(tickets: $tickets, tabSelection: $tabSelection, genre: key, genreFilms: modelData.genres[key]!.filter({ searchText.isEmpty ? true : $0.name.contains(searchText)}))
                     }
                     .listRowInsets(EdgeInsets())
                 }

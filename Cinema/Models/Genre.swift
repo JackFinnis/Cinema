@@ -8,7 +8,7 @@
 import Foundation
 
 enum Genre: String, CaseIterable, Codable {
-    case scifi = "Science Fiction"
+    case scifi = "Sci-Fi"
     case action = "Action"
     case family = "Family"
 }
