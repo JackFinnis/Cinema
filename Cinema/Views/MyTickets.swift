@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MyTickets: View {
+    @EnvironmentObject var modelData: ModelData
+    
     @Binding var tickets: [Film]
     
     @State var searchText: String = ""

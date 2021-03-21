@@ -6,15 +6,14 @@
 //
 
 import Foundation
-import SwiftUI
 import CoreLocation
 
 struct Film: Hashable, Codable, Identifiable {
     
     var id: Int
     var name: String
-    var category: String
-    var length: String
+    var genre: String
+    var runtime: String
     var rating: String
     var description: String
     var imageName: String

@@ -6,8 +6,20 @@
 //
 
 import Foundation
+import Combine
 
-var films: [Film] = load("filmData.json")
+final class ModelData: ObservableObject {
+    @Published var films: [Film] = load("filmData.json")
+    
+    var genres: [String: [Film]] {
+        Dictionary(
+            grouping: films,
+            by: { $0.genre }
+        )
+    }
+}
+
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

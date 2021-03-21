@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct Tabs: View {
+    @EnvironmentObject var modelData: ModelData
+    
     @State var tickets: [Film] = []
     @State var selection: Int = 0
     
     var body: some View {
         TabView(selection: $selection) {
             WhatsOn(tickets: $tickets)
+                .environmentObject(modelData)
                 .tabItem {
                     VStack {
                         if selection == 0 {
@@ -27,6 +30,7 @@ struct Tabs: View {
                 .tag(0)
             
             MyTickets(tickets: $tickets)
+                .environmentObject(modelData)
                 .tabItem {
                     VStack {
                         if selection == 1 {

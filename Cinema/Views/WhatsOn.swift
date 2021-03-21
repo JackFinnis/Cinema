@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct WhatsOn: View {
+    @EnvironmentObject var modelData: ModelData
+    
     @Binding var tickets: [Film]
     
     @State var searchText: String = ""
@@ -17,10 +19,11 @@ struct WhatsOn: View {
             VStack {
                 SearchBar(searchText: $searchText)
                 
-                List(films.filter({ searchText.isEmpty ? true : $0.name.contains(searchText) })) { film in
-                    NavigationLink(destination: FilmDetail(tickets: $tickets, film: film)) {
-                        Text(film.name)
+                ScrollView(.vertical, showsIndicators: false) {
+                    ForEach(modelData.genres.keys.sorted(), id: \.self) { key in
+                        GenreRow(genre: key, genreFilms: modelData.genres[key]!.filter({ searchText.isEmpty ? true : $0.name.contains(searchText)}))
                     }
+                    .listRowInsets(EdgeInsets())
                 }
             }
             .navigationTitle("What's On?")

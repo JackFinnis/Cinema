@@ -13,7 +13,7 @@ struct FilmDetail: View {
     var film: Film
     
     var body: some View {
-        ScrollView {
+        ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: .leading) {
                 Image(film.imageName)
                     .resizable()
