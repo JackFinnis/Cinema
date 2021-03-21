@@ -12,6 +12,7 @@ struct FilmDetail: View {
     @Binding var tickets: [Film]
     @Binding var tabSelection: Int
     
+    @State var sheetPresented: Bool = false
     @State var selection: String = "Next Showtime"
     @State private var centerCoordinate = CLLocationCoordinate2D()
     
@@ -77,7 +78,7 @@ struct FilmDetail: View {
                 
                 Button(action: {
                     if !tickets.contains(film) {
-                        tickets.append(film)
+                        sheetPresented = true
                     } else {
                         tabSelection = 1
                     }
@@ -98,6 +99,8 @@ struct FilmDetail: View {
                             .cornerRadius(11)
                             .padding(.top, 10)
                     }
+                })
+                .sheet(isPresented: $sheetPresented, onDismiss: nil, content: { BookFilm(sheetPresented: $sheetPresented, tickets: $tickets, film: film)
                 })
             }
             .padding(10)
